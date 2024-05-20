@@ -1,0 +1,24 @@
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 300px){
+   .container{
+      margin-inline: 1rem;
+   }
+   
+   .card__container{
+      grid-template-columns: 1fr;
+   }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px){
+   .container{
+      height: 100vh;
+      display: grid;
+      align-items: center;
+   }
+
+   .card__img{
+      width: 220px;
+   }
+}

@@ -1,0 +1,21 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+   /*========== Colors ==========*/
+   /*Color mode HSL(hue, saturation, lightness)*/
+   --white-color: hsl(170, 12%, 98%);
+   --gray-color: hsl(170, 4%, 60%);
+   --black-color: hsl(170, 12%, 8%);
+
+   /*========== Font and typography ==========*/
+   /*.5rem = 8px | 1rem = 16px ...*/
+   --body-font: "Bona Nova", serif;
+   --normal-font-size: .938rem;
+
+   // Responsive typography
+   @media screen and (min-width: 1120px){
+      --normal-font-size: 1rem;
+   }
+}
