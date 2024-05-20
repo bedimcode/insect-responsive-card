@@ -1,0 +1,13 @@
+========== CARD ==========
+.card__title .card__price
+Elegant <br> Queen Bee
+$5999
+
+Mechanical Magic <br> Butterfly
+$3999
+
+Wonderful <br> Flower Beetle
+$8999
+
+.card__button
+View More
